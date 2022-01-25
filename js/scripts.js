@@ -1,6 +1,6 @@
 let vacationCalc = document.getElementById("vacationCalc");
 
-vacationCalc.addEventListener("submit", calcExpenses)
+vacationCalc.addEventListener("submit", calcExpenses);
 
 function getValues() {
     let destiny = document.getElementById("destiny").value;
